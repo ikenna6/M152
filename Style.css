@@ -1,0 +1,120 @@
+body {
+    background: url("Design/lil.jpg") repeat-y;
+    background-size: 100% auto;
+    font: 400 1.5vw/1.5 "Lato", sans-serif;
+    color: white;
+    margin: 0;
+}
+
+
+h1 {
+    margin: 20px;
+}
+
+#nav ul {
+
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(0, 48, 139, 0.75);
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#nav li a:hover {
+    background-color: #006FCD;
+}
+
+#copyright {
+    color: black;
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+}
+
+#impressum {
+    color: black;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+
+#impressum a {
+    text-decoration: none;
+    color: black;
+}
+
+#title1 {
+    background-color: transparent;
+    padding: 50px 50px 0px 50px;
+    color: #000000;
+    font-size: 1.7vw;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.title2 {
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    background-color: transparent;
+    color: #000000;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.title2 a {
+    text-decoration: underline;
+    color: black;
+}
+
+.title3 {
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+    background-color: transparent;
+    color: #000000;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.active {
+    text-decoration: underline !important;
+}
+
+
+video {
+    padding-top: 100px;
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.title4 {
+    width: 60%;
+    margin: auto;
+    background-color: transparent;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
